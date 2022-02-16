@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences-negalucas",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Create an iterator which generates a negaLucas sequence.",
   "license": "Apache-2.0",
   "author": {

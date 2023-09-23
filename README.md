@@ -99,6 +99,11 @@ with seed values `L_0 = 2` and `L_{-1} = -1`.
 ## Usage
 
 ```javascript
+import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-negalucas/tags). For example,
+
+```javascript
 import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@v0.1.0-esm/index.mjs';
 ```
 
@@ -180,7 +185,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@v0.1.0-esm/index.mjs';
+import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@esm/index.mjs';
 
 // Create an iterator:
 var it = iterNegaLucasSeq();

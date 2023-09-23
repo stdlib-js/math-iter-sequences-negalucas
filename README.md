@@ -99,7 +99,7 @@ with seed values `L_0 = 2` and `L_{-1} = -1`.
 ## Usage
 
 ```javascript
-import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@deno/mod.js';
+import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@v0.1.0-deno/mod.js';
 ```
 
 #### iterNegaLucasSeq( \[options] )
@@ -175,7 +175,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@deno/mod.js';
+import iterNegaLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@v0.1.0-deno/mod.js';
 
 // Create an iterator:
 var it = iterNegaLucasSeq();

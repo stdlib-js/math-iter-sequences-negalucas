@@ -101,6 +101,11 @@ with seed values `L_0 = 2` and `L_{-1} = -1`.
 To use in Observable,
 
 ```javascript
+iterNegaLucasSeq = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-negalucas/tags). For example,
+
+```javascript
 iterNegaLucasSeq = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@v0.2.1-umd/browser.js' )
 ```
 
@@ -113,7 +118,7 @@ var iterNegaLucasSeq = require( 'path/to/vendor/umd/math-iter-sequences-negaluca
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -202,7 +207,7 @@ var bool = it.next().done;
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-negalucas@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
